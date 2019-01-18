@@ -1,0 +1,386 @@
+html body {
+    padding: 0;
+    margin: 0;
+    background-color: #141414;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.navbar {
+    background-color: #141414;
+    height: 116px;
+    transition: .5s;
+
+
+}
+
+.navbar-brand img {
+    width: 100px;
+    transition: .5s;
+
+}
+
+.nav-link {
+    /* color: #ff4545!important; */
+    color: white !important;
+    font-size: .65em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border-bottom: 4px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 4px;
+
+}
+
+.nav-link:hover {
+    color: #ff4545 !important;
+    transition: .3s;
+    border-bottom: 2px solid #ff4545;
+}
+
+.landing-page {
+    background-color: #141414;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    /* height: calc(100vh - 116px); */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-page h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.landing-page h2 {
+    font-size: 25px;
+
+}
+
+.landing-page p {
+    color: #666666;
+}
+
+.landing-page span {
+    color: #ff4545;
+}
+
+.cv-link {
+    display: inline-block;
+}
+
+.landing-page .cv-link span {
+    color: #ff4545;
+    border-bottom: solid 1px #ff4545;
+    padding-bottom: 2px;
+    font-size: .65em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.landing-page .cv-link:hover {
+    text-decoration: none;
+}
+
+/* Mouse */
+
+.mouse-icon {
+    position: absolute;
+    width: 40px;
+    height: 65px;
+    border: 2px solid #ff4545;
+    border-radius: 17px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    right: 0;
+    margin-bottom: 50px;
+    animation: mousecolor 1s infinite;
+}
+
+.mouse p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.mouse-icon:after {
+    position: absolute;
+    top: 10px;
+    width: 4px;
+    height: 12px;
+    content: '';
+    background-color: #ff4545;
+    left: calc(50% - 2px);
+    border-radius: 8px;
+    animation: mouse 1.3s infinite;
+
+}
+
+@keyframes mousecolor {
+    0% {
+        width: 40px;
+        height: 65px;
+
+    }
+
+    100% {
+        width: 40px;
+        height: 65px;
+    }
+}
+
+@keyframes mouse {
+    0% {
+        opacity: 1;
+        top: 10px;
+    }
+
+    100% {
+        opacity: 0;
+        top: 30px;
+    }
+}
+
+/* About */
+
+.about {
+    margin: 200px 0;
+}
+
+/* Skills */
+
+.skills {
+    background-color: #1b1b1b;
+
+}
+
+.skills-content {
+    text-align: center;
+    padding: 10px;
+    margin: 200px 0;
+}
+
+.skills-content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.skills-content ul li {
+    list-style: none;
+    color: #ff4545;
+    letter-spacing: 1px;
+
+}
+
+.skills h4 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.skills p {
+    color: rgb(128, 131, 131);
+    margin: 30px 0;
+}
+
+.skills h6 {
+    color: white;
+}
+
+.skills-content img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+.example {
+    height: 400px;
+    padding: 0;
+    background-image: url("../img/rfu.png");
+    background-position: center;
+    filter: grayscale(1);
+    background-size: cover;
+    opacity: .4;
+}
+
+.example:hover {
+    filter: grayscale(0);
+    transition: .6s;
+    opacity: 1;
+}
+
+
+.nav-link .smaller:before {
+    height: 75px;
+}
+
+.experiences {
+    margin: 200px 0;
+}
+
+.experiences-title h3,
+.about h3 {
+    padding-right: 100px;
+}
+
+.experiences-title span,
+.about span {
+    color: #ff4545;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.experiences li {
+    margin-bottom: 30px;
+}
+
+.experiences h3,
+.about h3 {
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+
+.experiences ul {
+    list-style: none;
+}
+
+.experiences-date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #ff4545;
+    margin-bottom: 7px;
+
+
+
+}
+
+.experiences-society {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.experiences-resume,
+.about-resume {
+    color: #7c7c7c;
+}
+
+
+.social {
+    background-color: #1b1b1b;
+}
+
+.social ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 100px 0;
+}
+
+.social img {
+    width: 50px;
+    height: 50px;
+}
+
+.smaller {
+    height: 70px;
+    transition: .5s;
+}
+
+.smaller .navbar-brand img {
+    transition: .5s;
+    width: 80px;
+}
+
+.toggler-button img {
+    width: 30px;
+}
+
+.cv-btn {
+    display: none !important;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    z-index: 10000;
+    background-color: #ff4545;
+    transition: .5s;
+    font-weight: 700!important;
+    text-transform:uppercase;
+    animation: cvexit .5s;
+    animation-fill-mode: forwards;
+
+}
+
+.cv-animation {
+    display: block !important;
+    animation: cvfade .5s;
+    animation-fill-mode: forwards;
+}
+
+.cv-btn img {
+    width: 15px;
+    margin-left: 5px;
+}
+
+@keyframes cvfade {
+    0% {
+        opacity: 0;
+        bottom: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@keyframes exit {
+    0% {
+        opacity: 1;
+        bottom: 0;
+    }
+
+    100% {
+        opacity: 0;
+        bottom: -100px;
+        width: 80px;
+        height: 130px;
+        border: 8px solid #ff4545;
+        border-radius: 17px;
+        filter: blur(3px);
+    }
+}
+
+.mouse-exit{
+    animation: exit .5s;
+    animation-fill-mode: forwards;
+}
+
+.mouse-p-exit{
+    opacity:0;
+    transition:.3s;
+}
