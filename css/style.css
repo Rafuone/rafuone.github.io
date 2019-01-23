@@ -6,6 +6,11 @@ html body {
 
 }
 
+
+a, a:hover, a:active, a:focus {
+    outline: none;
+}
+
 .navbar {
     background-color: #141414;
     height: 116px;
@@ -13,7 +18,9 @@ html body {
 
 
 }
-
+.navbar-brand{
+    padding: 24px;
+}
 .navbar-brand img {
     width: 100px;
     transition: .5s;
@@ -446,3 +453,6 @@ html body {
     transition: .6s;
     opacity: 1;
 }
+
+
+@media 
