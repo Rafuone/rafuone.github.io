@@ -20,3 +20,5 @@ $(function () {
         }
     });
 });
+
+ScrollReveal().reveal('.about-content');

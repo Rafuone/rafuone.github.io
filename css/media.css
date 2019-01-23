@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+
+    .navbar {
+        padding: 0!important;
+        transition: .5s;
+        height: 62px;
+    }
+
+    .navbar-brand{
+        padding:10px!important;
+    }
+    .navbar-brand img{
+        width: 80px!important;
+        transition: .5s;
+    }
+
+    .navbar-collapse{
+        background-color: #141414;
+    }
+
+    .nav-link{
+        text-align:center;
+        border-bottom:none!important;
+        font-size: 14px!important;
+    }
+
+  }
