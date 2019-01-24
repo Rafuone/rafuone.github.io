@@ -6,7 +6,6 @@ html body {
 
 }
 
-
 a,
 a:hover,
 a:active,
@@ -15,6 +14,7 @@ a:focus {
 }
 
 
+// Navbar
 
 
 .navbar {
@@ -65,12 +65,13 @@ a:focus {
 }
 
 
+// Landing-page
+
 
 .landing-page {
     background-color: #141414;
     color: white;
     font-family: 'Raleway', sans-serif;
-    /* height: calc(100vh - 116px); */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -94,6 +95,12 @@ a:focus {
         color: #ff4545;
     }
 
+
+
+// Cv_link
+
+
+
     .cv-link {
         display: inline-block;
 
@@ -112,6 +119,10 @@ a:focus {
             font-weight: 700;
         }
     }
+
+
+    // Mouse 
+
 
     .mouse {
         .mouse-icon {
@@ -227,6 +238,7 @@ a:focus {
 }
 
 
+// About
 
 
 .about {
@@ -247,10 +259,12 @@ a:focus {
 
     .about-resume {
         color: #7c7c7c;
+        padding-left:40px;
     }
 }
 
 
+// Skills
 
 
 .skills {
@@ -299,6 +313,8 @@ a:focus {
     }
 
 }
+
+// Experiences
 
 
 
@@ -431,7 +447,18 @@ a:focus {
     text-transform: uppercase;
     animation: cvexit .5s;
     animation-fill-mode: forwards;
+    color: #141414;
+    box-shadow:none;
+    border: none;
+&:hover{
+    color: #141414;
+    box-shadow:none;
+    border: none;
+}
+&:active{
+    box-shadow:none;
 
+}
     img {
         width: 15px;
         margin-left: 5px;
@@ -443,12 +470,6 @@ a:focus {
     animation: cvfade .5s;
     animation-fill-mode: forwards;
 }
-
-
-
-
-// Mouse Animation
-
 
 
 
@@ -512,16 +533,14 @@ a:focus {
     opacity: .4;
 }
 
-.noura:hover,
-.transbud:hover,
-.sdw:hover,
-.jab:hover,
-.rfu:hover,
-.rafu:hover {
+.project-picture{
+    &:hover {
     filter: grayscale(0);
     transition: .6s;
     opacity: 1;
 }
+}
+
 
 footer{
     background-color: #ff4545;
@@ -535,3 +554,5 @@ footer{
         color:white;
     }
 }
+
+

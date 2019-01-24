@@ -45,7 +45,6 @@ a:focus {
   background-color: #141414;
   color: white;
   font-family: 'Raleway', sans-serif;
-  /* height: calc(100vh - 116px); */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -152,7 +151,8 @@ a:focus {
     font-weight: 700;
     font-size: 20px; }
   .about .about-resume {
-    color: #7c7c7c; }
+    color: #7c7c7c;
+    padding-left: 40px; }
 
 .skills {
   background-color: #1b1b1b;
@@ -252,7 +252,16 @@ a:focus {
   font-weight: 700 !important;
   text-transform: uppercase;
   animation: cvexit .5s;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+  color: #141414;
+  box-shadow: none;
+  border: none; }
+  .cv-btn:hover {
+    color: #141414;
+    box-shadow: none;
+    border: none; }
+  .cv-btn:active {
+    box-shadow: none; }
   .cv-btn img {
     width: 15px;
     margin-left: 5px; }
@@ -316,12 +325,7 @@ a:focus {
   background-size: cover;
   opacity: .4; }
 
-.noura:hover,
-.transbud:hover,
-.sdw:hover,
-.jab:hover,
-.rfu:hover,
-.rafu:hover {
+.project-picture:hover {
   filter: grayscale(0);
   transition: .6s;
   opacity: 1; }

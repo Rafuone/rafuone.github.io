@@ -21,7 +21,62 @@
     .nav-link{
         text-align:center;
         border-bottom:none!important;
-        font-size: 14px!important;
+        font-size: 13px!important;
     }
 
   }
+
+
+  @media screen and (max-width: 768px) {
+
+    .about{
+       margin-bottom: 100px;
+       transition: .6s;
+    }
+.about-title, .experiences-title h3{
+    padding:15px 0 0 0!important;
+    text-align:left!important;
+    transition: .6s;
+}
+.about-resume, .experiences-resume{
+    margin-top: 50px;
+    transition:.6s;
+}
+    .skills{
+    padding: 60px 0;
+    transition:.6s;
+
+}
+
+.skills .skills-content{
+    margin: 40px 0;
+    transition:.6s;
+
+}
+  }
+
+
+
+  @media screen and (max-width: 992px) {
+
+.about h3, .experiences-title h3{
+    padding: 0!important;
+    transition: .6s;
+}
+
+.about-resume{
+    padding-left:0!important;
+    transition: .6s;
+}
+  }
+
+
+
+  @media screen and (min-width: 2160px) {
+
+    .project-picture{
+        height: 700px;
+    }
+      }
+
+
