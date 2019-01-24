@@ -253,8 +253,10 @@ a:focus {
 
     span {
         color: #ff4545;
-        font-weight: 700;
-        font-size: 20px;
+        font:{
+            weight: 700;
+            size: 20px;
+        }
     }
 
     .about-resume {
@@ -294,11 +296,12 @@ a:focus {
     }
 
     h4 {
+        margin:30px 0 20px 0;
         color: rgb(255, 255, 255);
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 30px;
+        text:{
+            transform: uppercase;
+            align: center;
+        }
         font-size: 20px;
         letter-spacing: 1px;
     }
@@ -326,18 +329,22 @@ a:focus {
     .experiences-resume {
 
         .experiences-date {
-            font-family: 'Roboto', sans-serif;
-            font-size: 15px;
+            font:{
+                family: 'Roboto', sans-serif;
+                size: 15px;
+            }
             letter-spacing: 1px;
             color: #ff4545;
             margin-bottom: 7px;
         }
 
         .experiences-society {
+            font:{
+                family: 'Raleway', sans-serif;
+                weight: 700;
+                size: 20px;
+            }
             color: white;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            font-size: 20px;
             margin-bottom: 0;
         }
 
@@ -474,62 +481,74 @@ a:focus {
 
 
 .sdw {
-    background-image: url("../img/projects/sdw-picture.png");
+    background:{
+        image: url("../img/projects/sdw-picture.png");
+        position: center;
+        size:cover;
+    }
     height: 400px;
     padding: 0;
-    background-position: center;
     filter: grayscale(1);
-    background-size: cover;
     opacity: .4;
 }
 
 .jab {
-    background-image: url("../img/projects/jab-picture.png");
+    background:{
+        image: url("../img/projects/jab-picture.png");
+        position: center;
+        size: cover;
+    }
     height: 400px;
     padding: 0;
-    background-position: center;
     filter: grayscale(1);
-    background-size: cover;
     opacity: .4;
 }
 
 .rfu {
-    background-image: url("../img/projects/rfu-picture.png");
+    background:{
+        image: url("../img/projects/rfu-picture.png");
+        position: center;
+        size: cover;
+    }
     height: 400px;
     padding: 0;
-    background-position: center;
     filter: grayscale(1);
-    background-size: cover;
     opacity: .4;
 }
 
 .rafu {
-    background-image: url("../img/projects/rafu-picture.png");
+    background:{
+        image: url("../img/projects/rafu-picture.png");
+        position: center;
+        size: cover;
+    }
     height: 400px;
     padding: 0;
-    background-position: center;
     filter: grayscale(1);
-    background-size: cover;
     opacity: .4;
 }
 
 .transbud {
-    background-image: url("../img/projects/transbud-picture.png");
+    background:{
+        image:  url("../img/projects/transbud-picture.png");
+        position: center;
+        size: cover;
+    }
     height: 400px;
     padding: 0;
-    background-position: center;
     filter: grayscale(1);
-    background-size: cover;
     opacity: .4;
 }
 
 .noura {
-    background-image: url("../img/projects/noura-picture.png");
+    background:{
+        image: url("../img/projects/noura-picture.png");
+        position: center;
+        size: cover;
+    }
     height: 400px;
     padding: 0;
-    background-position: center;
     filter: grayscale(1);
-    background-size: cover;
     opacity: .4;
 }
 
@@ -547,11 +566,15 @@ footer{
     margin: 0;
     p{
         text-align: center;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
-        text-align: center;
+        font:{
+            family: 'Raleway', sans-serif;
+            weight: 500;
+            align: center;
+            size: 13px;
+        }
         width: 100%;
         color:white;
+        font-size:13px;
     }
 }
 

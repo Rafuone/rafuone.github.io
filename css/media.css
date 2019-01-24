@@ -1,82 +1,95 @@
 @media screen and (max-width: 992px) {
 
     .navbar {
-        padding: 0!important;
+        padding: 0 !important;
         transition: .5s;
         height: 62px;
     }
 
-    .navbar-brand{
-        padding:10px!important;
+    .navbar-brand {
+        padding: 10px !important;
     }
-    .navbar-brand img{
-        width: 80px!important;
+
+    .navbar-brand img {
+        width: 80px !important;
         transition: .5s;
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: #141414;
     }
 
-    .nav-link{
-        text-align:center;
-        border-bottom:none!important;
-        font-size: 13px!important;
+    .nav-link {
+        text-align: center;
+        border-bottom: none !important;
+        font-size: 13px !important;
     }
 
-  }
+}
 
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-    .about{
-       margin-bottom: 100px;
-       transition: .6s;
+    .about {
+        margin-bottom: 100px;
+        transition: .6s;
     }
-.about-title, .experiences-title h3{
-    padding:15px 0 0 0!important;
-    text-align:left!important;
-    transition: .6s;
+
+    .experiences{
+        margin: 100px 0;
+    }
+
+    .about-title,
+    .experiences-title h3 {
+        padding: 15px 0 0 0 !important;
+        text-align: left !important;
+        transition: .6s;
+    }
+
+    .about-resume,
+    .experiences-resume {
+        margin-top: 50px;
+        transition: .6s;
+    }
+
+    .experiences ul{
+        padding-left: 0!important;
+    }
+
+    .skills {
+        padding: 60px 0;
+        transition: .6s;
+
+    }
+
+    .skills .skills-content {
+        margin: 40px 0;
+        transition: .6s;
+
+    }
 }
-.about-resume, .experiences-resume{
-    margin-top: 50px;
-    transition:.6s;
-}
-    .skills{
-    padding: 60px 0;
-    transition:.6s;
-
-}
-
-.skills .skills-content{
-    margin: 40px 0;
-    transition:.6s;
-
-}
-  }
 
 
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
-.about h3, .experiences-title h3{
-    padding: 0!important;
-    transition: .6s;
+    .about h3,
+    .experiences-title h3 {
+        padding: 0 !important;
+        transition: .6s;
+    }
+
+    .about-resume {
+        padding-left: 0 !important;
+        transition: .6s;
+    }
 }
 
-.about-resume{
-    padding-left:0!important;
-    transition: .6s;
-}
-  }
 
 
+@media screen and (min-width: 2160px) {
 
-  @media screen and (min-width: 2160px) {
-
-    .project-picture{
+    .project-picture {
         height: 600px;
     }
-      }
-
-
+}

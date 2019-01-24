@@ -172,11 +172,10 @@ a:focus {
       width: 80px;
       height: 80px; }
   .skills h4 {
+    margin: 30px 0 20px 0;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
     font-size: 20px;
     letter-spacing: 1px; }
   .skills p {
@@ -194,10 +193,10 @@ a:focus {
     color: #ff4545;
     margin-bottom: 7px; }
   .experiences .experiences-resume .experiences-society {
-    color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 20px;
+    color: white;
     margin-bottom: 0; }
   .experiences .experiences-resume .experiences-text {
     color: #7c7c7c; }
@@ -273,56 +272,56 @@ a:focus {
 
 .sdw {
   background-image: url("../img/projects/sdw-picture.png");
+  background-position: center;
+  background-size: cover;
   height: 400px;
   padding: 0;
-  background-position: center;
   filter: grayscale(1);
-  background-size: cover;
   opacity: .4; }
 
 .jab {
   background-image: url("../img/projects/jab-picture.png");
+  background-position: center;
+  background-size: cover;
   height: 400px;
   padding: 0;
-  background-position: center;
   filter: grayscale(1);
-  background-size: cover;
   opacity: .4; }
 
 .rfu {
   background-image: url("../img/projects/rfu-picture.png");
+  background-position: center;
+  background-size: cover;
   height: 400px;
   padding: 0;
-  background-position: center;
   filter: grayscale(1);
-  background-size: cover;
   opacity: .4; }
 
 .rafu {
   background-image: url("../img/projects/rafu-picture.png");
+  background-position: center;
+  background-size: cover;
   height: 400px;
   padding: 0;
-  background-position: center;
   filter: grayscale(1);
-  background-size: cover;
   opacity: .4; }
 
 .transbud {
   background-image: url("../img/projects/transbud-picture.png");
+  background-position: center;
+  background-size: cover;
   height: 400px;
   padding: 0;
-  background-position: center;
   filter: grayscale(1);
-  background-size: cover;
   opacity: .4; }
 
 .noura {
   background-image: url("../img/projects/noura-picture.png");
+  background-position: center;
+  background-size: cover;
   height: 400px;
   padding: 0;
-  background-position: center;
   filter: grayscale(1);
-  background-size: cover;
   opacity: .4; }
 
 .project-picture:hover {
@@ -337,8 +336,10 @@ footer {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    text-align: center;
+    font-align: center;
+    font-size: 13px;
     width: 100%;
-    color: white; }
+    color: white;
+    font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */
