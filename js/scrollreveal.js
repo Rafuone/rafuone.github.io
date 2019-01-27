@@ -50,6 +50,9 @@
           reset: false,
           useDelay:'always',
         viewFactor: 1,
+        viewOffset: {
+          bottom: -300,
+      }
     });
     
     
@@ -69,6 +72,9 @@
           reset: false,
           useDelay:'always',
         viewFactor: 1,
+        viewOffset: {
+          bottom: -300,
+      }
     });
     
     
@@ -80,5 +86,6 @@
           reset: false,
           useDelay:'always',
         viewFactor: 0.8,
+        
     });
   }
