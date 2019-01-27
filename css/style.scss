@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html body {
     padding: 0;
     margin: 0;
@@ -22,9 +26,10 @@ a:focus {
     height: 116px;
     transition: .5s;
 
-    .navbar-toggler{
-        border:none;
+    .navbar-toggler {
+        border: none;
     }
+
     .navbar-brand {
         padding: 24px;
         transition: .5s;
@@ -97,7 +102,7 @@ a:focus {
 
 
 
-// Cv_link
+    // Cv_link
 
 
 
@@ -166,6 +171,10 @@ a:focus {
 
 }
 
+.mouse-exit {
+    animation: exit .5s !important;
+    animation-fill-mode: forwards !important;
+}
 
 @keyframes cvfade {
     0% {
@@ -191,7 +200,7 @@ a:focus {
         width: 80px;
         height: 130px;
         border: 8px solid #ff4545;
-        border-radius: 17px;
+        border-radius: 28px;
         filter: blur(3px);
     }
 }
@@ -203,27 +212,8 @@ a:focus {
     transition: .3s;
 }
 
-.mouse-exit {
-    animation: exit .5s;
-    animation-fill-mode: forwards;
-}
 
 
-
-
-
-@keyframes mousecolor {
-    0% {
-        width: 40px;
-        height: 65px;
-
-    }
-
-    100% {
-        width: 40px;
-        height: 65px;
-    }
-}
 
 @keyframes mouse {
     0% {
@@ -253,7 +243,8 @@ a:focus {
 
     span {
         color: #ff4545;
-        font:{
+
+        font: {
             weight: 700;
             size: 20px;
         }
@@ -261,7 +252,7 @@ a:focus {
 
     .about-resume {
         color: #7c7c7c;
-        padding-left:40px;
+        padding-left: 40px;
     }
 }
 
@@ -296,12 +287,14 @@ a:focus {
     }
 
     h4 {
-        margin:30px 0 20px 0;
+        margin: 30px 0 20px 0;
         color: rgb(255, 255, 255);
-        text:{
+
+        text: {
             transform: uppercase;
             align: center;
         }
+
         font-size: 20px;
         letter-spacing: 1px;
     }
@@ -322,28 +315,30 @@ a:focus {
 
 
 .experiences {
-    margin: 200px 0;
+    padding: 200px 0;
 
 
 
     .experiences-resume {
 
         .experiences-date {
-            font:{
+            font: {
                 family: 'Roboto', sans-serif;
                 size: 15px;
             }
+
             letter-spacing: 1px;
             color: #ff4545;
             margin-bottom: 7px;
         }
 
         .experiences-society {
-            font:{
+            font: {
                 family: 'Raleway', sans-serif;
                 weight: 700;
                 size: 20px;
             }
+
             color: white;
             margin-bottom: 0;
         }
@@ -455,17 +450,20 @@ a:focus {
     animation: cvexit .5s;
     animation-fill-mode: forwards;
     color: #141414;
-    box-shadow:none;
+    box-shadow: none;
     border: none;
-&:hover{
-    color: #141414;
-    box-shadow:none;
-    border: none;
-}
-&:active{
-    box-shadow:none;
 
-}
+    &:hover {
+        color: #141414;
+        box-shadow: none;
+        border: none;
+    }
+
+    &:active {
+        box-shadow: none;
+
+    }
+
     img {
         width: 15px;
         margin-left: 5px;
@@ -481,11 +479,12 @@ a:focus {
 
 
 .sdw {
-    background:{
+    background: {
         image: url("../img/projects/sdw-picture.png");
         position: center;
-        size:cover;
+        size: cover;
     }
+
     height: 400px;
     padding: 0;
     filter: grayscale(1);
@@ -493,11 +492,12 @@ a:focus {
 }
 
 .jab {
-    background:{
+    background: {
         image: url("../img/projects/jab-picture.png");
         position: center;
         size: cover;
     }
+
     height: 400px;
     padding: 0;
     filter: grayscale(1);
@@ -505,11 +505,12 @@ a:focus {
 }
 
 .rfu {
-    background:{
+    background: {
         image: url("../img/projects/rfu-picture.png");
         position: center;
         size: cover;
     }
+
     height: 400px;
     padding: 0;
     filter: grayscale(1);
@@ -517,11 +518,12 @@ a:focus {
 }
 
 .rafu {
-    background:{
+    background: {
         image: url("../img/projects/rafu-picture.png");
         position: center;
         size: cover;
     }
+
     height: 400px;
     padding: 0;
     filter: grayscale(1);
@@ -529,11 +531,12 @@ a:focus {
 }
 
 .transbud {
-    background:{
-        image:  url("../img/projects/transbud-picture.png");
+    background: {
+        image: url("../img/projects/transbud-picture.png");
         position: center;
         size: cover;
     }
+
     height: 400px;
     padding: 0;
     filter: grayscale(1);
@@ -541,41 +544,43 @@ a:focus {
 }
 
 .noura {
-    background:{
+    background: {
         image: url("../img/projects/noura-picture.png");
         position: center;
         size: cover;
     }
+
     height: 400px;
     padding: 0;
     filter: grayscale(1);
     opacity: .4;
 }
 
-.project-picture{
+.project-picture {
     &:hover {
-    filter: grayscale(0);
-    transition: .6s;
-    opacity: 1;
-}
+        filter: grayscale(0);
+        transition: .6s;
+        opacity: 1;
+    }
 }
 
 
-footer{
+footer {
     background-color: #ff4545;
     margin: 0;
-    p{
+
+    p {
         text-align: center;
-        font:{
+
+        font: {
             family: 'Raleway', sans-serif;
             weight: 500;
             align: center;
             size: 13px;
         }
+
         width: 100%;
         color:white;
         font-size:13px;
     }
 }
-
-

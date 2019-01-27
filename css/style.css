@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 html body {
   padding: 0;
   margin: 0;
@@ -98,6 +101,10 @@ a:focus {
     left: 50%;
     transform: translate(-50%, 0); }
 
+.mouse-exit {
+  animation: exit .5s !important;
+  animation-fill-mode: forwards !important; }
+
 @keyframes cvfade {
   0% {
     opacity: 0;
@@ -115,23 +122,12 @@ a:focus {
     width: 80px;
     height: 130px;
     border: 8px solid #ff4545;
-    border-radius: 17px;
+    border-radius: 28px;
     filter: blur(3px); } }
 .mouse-p-exit {
   opacity: 0;
   transition: .3s; }
 
-.mouse-exit {
-  animation: exit .5s;
-  animation-fill-mode: forwards; }
-
-@keyframes mousecolor {
-  0% {
-    width: 40px;
-    height: 65px; }
-  100% {
-    width: 40px;
-    height: 65px; } }
 @keyframes mouse {
   0% {
     opacity: 1;
@@ -185,7 +181,7 @@ a:focus {
     color: white; }
 
 .experiences {
-  margin: 200px 0; }
+  padding: 200px 0; }
   .experiences .experiences-resume .experiences-date {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
