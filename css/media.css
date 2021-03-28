@@ -67,6 +67,10 @@
         transition: .6s;
 
     }
+
+    .message-construction h1{
+font-size: 27px;
+    }
 }
 
 
